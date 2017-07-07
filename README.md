@@ -52,8 +52,8 @@ executed at runtime when the job is processed
     end
 
 #### supported options
- - *hostname* - the hostname used for instrumentation, defaults to system hostname. Can also be set with the `INSTRUMENTATION_HOSTNAME` env var.
- - *metric_name* - the metric name (prefix) to use, defaults to "sidekiq.job".
+ - *hostname* - the hostname used for instrumentation, defaults to system hostname. Can also be set with the `INSTRUMENTATION_HOSTNAME` env var
+ - *metric_name* - the metric name (prefix) to use, defaults to "sidekiq.job"
  - *tags* - array of custom tags. These can be plain strings or lambda blocks
  - *statsd_host* - the statsD host, defaults to "localhost". Can also be set with the `STATSD_HOST` env var
  - *statsd_port* - the statsD port, defaults to 8125. Can also be set with the `STATSD_PORT` env var
